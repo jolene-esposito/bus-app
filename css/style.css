@@ -1,0 +1,66 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DEDEDE;
+  font-size: 16px;
+  font-family: Helvetica; sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 375px;
+}
+
+.pull-up {
+  background-color: #FFFFFF;
+  border: 5px solid gray;  /* width, style, color */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 300px;
+}
+
+h1 {
+  font-size: 1.4em;
+  background-color: yellow;
+  border-bottom: 1px solid gray;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: 1.4em;
+  background-color: yellow;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+
+
+.rectangle {
+  width: 4px;
+  display: inline-block;
+}
+
+.bus-icon {
+  width: 25px;
+  background-color: blue;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h3, p {
+  background-color: orange;
+  display: inline-block;
+}
+
+.time {
+  text-align: right;
+  background-color: green;
+  float: right;
+}
