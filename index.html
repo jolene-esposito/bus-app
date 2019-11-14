@@ -3,28 +3,103 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>BusyBus App</title>
   </head>
   <body>
-    <section class="container">
-
-      <div class="map">
+    <section class="container"> <!-- this the entire 'screen' -->
+      <div class="map_screen"> <!-- this is the map portion of the screen -->
         <img class="map" src="../images/map.png" alt="Map of your location">
+        <img class="back-button" src="../images/back_button.png" alt="Back button">
       </div>
-
-      <div class="pull-up menu">
+      <div class="pull-up menu"> <!-- this is the pull up menu -->
         <h1>Washington & State</h1>
-        <div class="bus info">
-          <img class="rectangle" src="../images/rectangle.png">
-          <img class="bus-icon" src="../images/bus_icon.png">
 
-          <h2>60</h2>
-          <h3>Eastbound</h3>
-          <p>Randolph/Harbor Dr</p>
-          <h3 class="time">Every 20 minutes</h3>
+<!-- Row 1 -->
+        <div class="row-info">
+          <div class="busline-info">
+            <h2>60</h2>
+            <h3>Eastbound</h3>
+            <p>Randolph/Harbor Dr</p>
+          </div>
+          <h3 class="time">Every 20 min</h3>
         </div>
+
+<!-- Row 2 -->
+        <div class="row-info">
+          <div class="busline-info">
+            <h2>124</h2>
+              <h3>Eastbound</h3>
+                <p>Navy Pier</p>
+          </div>
+          <h3 class="time">Every 10 min</h3>
+        </div>
+<!-- Row 3 -->
+        <div class="row-info">
+          <div class="busline-info">
+            <h2>151</h2>
+              <h3>Northbound</h3>
+                <p>Devon/Clark</p>
+          </div>
+          <h3 class="time">Every 16 min</h3>
+        </div>
+<!-- Row 4 -->
+        <div class="row-info">
+          <div class="busline-info">
+            <h2>J14</h2>
+              <h3>Southbound</h3>
+                <p>103rd/Stony Island</p>
+          </div>
+          <h3 class="time">Every 15 min</h3>
+        </div>
+<!-- Row 5 -->
+        <div class="row-info">
+          <div class="busline-info">
+            <h2>124</h2>
+              <h3>Southbound</h3>
+                <p>Navy Pier</p>
+          </div>
+          <h3 class="time">Every 10 min</h3>
+        </div>
+<!-- Row 6 -->
+        <div class="row-info">
+          <div class="busline-info">
+            <h2>6x</h2>
+              <h3 class="interuption">Reroute</h3>
+                <p>Jackson Park Express</p>
+          </div>
+          <h3 class="time">N/A</h3>
+        </div>
+<!-- Row 7 -->
+        <div class="row-info">
+          <div class="busline-info">
+            <h2>4</h2>
+              <h3 class="interuption">Out of Service</h3>
+                <p>Cottage Grove</p>
+          </div>
+          <h3 class="time">Resumes 12:10am</h3>
+        </div>
+<!-- Row 8 -->
+        <div class="row-info">
+          <div class="busline-info">
+            <h2>20</h2>
+              <h3 class="interuption">Out of Service</h3>
+                <p>Madison</p>
+          </div>
+          <h3 class="time">Resumes 12:10am</h3>
+        </div>
+<!-- Row 9 -->
+        <div class="row-info">
+          <div class="busline-info">
+            <h2>157</h2>
+              <h3 class="interuption">Out of Service</h3>
+                <p>Streeterville/Taylor</p>
+          </div>
+          <h3 class="time">Resumes 6:00am</h3>
+        </div>
+
       </div>
 
 
