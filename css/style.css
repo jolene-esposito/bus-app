@@ -8,7 +8,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* this container encompasses the entire screen */
+/* this is the container for the entire screen */
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -19,10 +19,7 @@ body {
 
 .pull-up {
   background-color: #FEFEFE;
-  /* border: 15px solid gray; */
-  /* border-top-left-radius: 10px; */
-  /* border-top-right-radius: 10px; */
-  height: 880px;
+  height: 915px;
 }
 
 /* Bus stop name */
@@ -31,12 +28,17 @@ h1 {
   color: #3E3E3E;
   font-weight: 600;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
+  margin-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+/* minute walk */
+.walk {
   border-bottom: 1px solid #BCBBC1;
-  /* background-color: yellow; */
-  /* margin-top: 20px; */
-  /* margin-left: 10px; */
-  padding: 10px;
+  margin-left: 18px;
+  padding-bottom: 3px;
 }
 
 /* bus number */
@@ -44,12 +46,9 @@ h2 {
   font-size: 2em;
   font-weight: 600;
   color: #3E3E3E;
-  /* background-color: yellow; */
   display: inline-block;
   vertical-align: top;
-
 }
-
 
 .map_screen {
   position:relative;
@@ -69,28 +68,25 @@ h2 {
 }
 
 
-
 /* each individual row of bus info */
 .row-info {
   border-bottom: 1px solid #BCBBC1;
+  margin-left: 15px;
 }
 
 /* route info including bus icon, bus #, direction, route */
 .busline-info {
   border-left: 4px solid #FD8F00;
-  border-left-radius: 5px;
   padding-left: 10px;
   display: inline-block;
   margin-top: 7px;
   margin-bottom: 7px;
-  margin-left: 15px;
+  margin-left: 4px;
 }
-
 
 
 /* direction and route */
 h3, p {
-  /* background-color: orange; */
   line-height: 1.4;
   color: #3E3E3E;
 }
@@ -111,15 +107,20 @@ p {
 }
 
 .time {
-  background: magenta;
   line-height: 1.2;
   width: 80px;
   display: inline-block;
   float: right;
-  margin-right: 20px;
-  /* margin-top: 25px; */
-  font-size: 1.1em;
+  font-size: 1.07em;
+  font-weight: 400;
+  color: #3E3E3E;
   text-align: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.special {
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
