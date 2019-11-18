@@ -1,0 +1,141 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DEDEDE;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* this is the container for the entire screen */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 375px;
+}
+
+.pull-up {
+  background-color: #FEFEFE;
+  height: 915px;
+}
+
+
+
+<ul
+
+
+/* Bus stop name */
+h1 {
+  font-size: 1.3em;
+  color: #3E3E3E;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+/* minute walk */
+.walk {
+  border-bottom: 1px solid #BCBBC1;
+  margin-left: 18px;
+  padding-bottom: 3px;
+}
+
+/* bus number */
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #3E3E3E;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.map_screen {
+  position:relative;
+}
+
+.map {
+  width: 100%;
+  display: block;
+}
+
+.back-button {
+  display: inline-block;
+  position: absolute;
+  width: 36px;
+  top: 43px;
+  left: 5px;
+}
+
+
+/* each individual row of bus info */
+li {
+  border-bottom: 1px solid #BCBBC1;
+  margin-left: 15px;
+}
+
+/* route info including bus icon, bus #, direction, route */
+.busline-info {
+  border-left: 3.3px solid #FD8F00;
+  padding-left: 11px;
+  display: inline-block;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 2px;
+  background: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* direction and route */
+h3, p {
+  line-height: 1.4;
+  color: #3E3E3E;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1em;
+}
+
+p {
+  font-weight: 600;
+  font-size: 1.07em;
+}
+
+
+
+.frequency {
+  background: magenta;
+  line-height: 1.2;
+  width: 80px;
+  display: inline-block;
+  float: right;
+  font-size: 1.07em;
+  font-weight: 400;
+  color: #3E3E3E;
+  text-align: center;
+  margin-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
