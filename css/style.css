@@ -76,12 +76,12 @@ h2 {
 
 /* route info including bus icon, bus #, direction, route */
 .busline-info {
-  border-left: 4px solid #FD8F00;
-  padding-left: 10px;
+  border-left: 3.3px solid #FD8F00;
+  padding-left: 11px;
   display: inline-block;
   margin-top: 7px;
   margin-bottom: 7px;
-  margin-left: 4px;
+  margin-left: 2px;
 }
 
 
