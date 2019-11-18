@@ -17,13 +17,9 @@ body {
   width: 375px;
 }
 
-.pull-up {
-  background-color: blue;
-  height: 915px;
-}
 
 ul {
-  background: blue;
+  background-color: gray;
 }
 
 /* Bus stop name */
