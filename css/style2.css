@@ -18,14 +18,13 @@ body {
 }
 
 .pull-up {
-  background-color: #FEFEFE;
+  background-color: blue;
   height: 915px;
 }
 
-
-
-<ul
-
+ul {
+  background: blue;
+}
 
 /* Bus stop name */
 h1 {
@@ -79,6 +78,8 @@ li {
   margin-left: 15px;
 }
 
+
+
 /* route info including bus icon, bus #, direction, route */
 .busline-info {
   border-left: 3.3px solid #FD8F00;
@@ -90,7 +91,20 @@ li {
   background: yellow;
 }
 
-
+li.frequency {
+  background: magenta;
+  line-height: 1.2;
+  width: 80px;
+  display: inline-block;
+  float: right;
+  font-size: 1.07em;
+  font-weight: 400;
+  color: #3E3E3E;
+  text-align: center;
+  margin-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
 
 
@@ -121,21 +135,4 @@ h3 {
 p {
   font-weight: 600;
   font-size: 1.07em;
-}
-
-
-
-.frequency {
-  background: magenta;
-  line-height: 1.2;
-  width: 80px;
-  display: inline-block;
-  float: right;
-  font-size: 1.07em;
-  font-weight: 400;
-  color: #3E3E3E;
-  text-align: center;
-  margin-right: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
