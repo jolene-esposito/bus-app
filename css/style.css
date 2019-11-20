@@ -17,8 +17,9 @@ body {
   width: 375px;
 }
 
-ul  {
+.pull-up  {
   background-color: #FCFCFB;
+  height: 990px;
 }
 
 .map_screen {
