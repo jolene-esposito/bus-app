@@ -5,100 +5,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <title>BusyBus App</title>
   </head>
   <body>
-    <section class="container">
+    <section class="container screen">
       <div class="map_screen">
         <img class="map" src="images/map.png" alt="Map of your location">
         <img class="back-button" src="images/back_button.png" alt="Back button">
       </div>
-      <div class="pull-up menu">
-        <h1>Washington & State</h1>
-        <h3 class="walk">1 minute walk</h3>
+<!-- beginning of the list format -->
+      <ul class="pull-up contents">
+        <li class="current stop">
+          <h1>Washington & State</h1>
+          <h3 class="walk">1 minute walk</h3>
+        </li>
 <!-- Row 1 -->
-        <div class="row-info">
-          <div class="busline-info">
-            <h2>60</h2>
-            <h3>Eastbound</h3>
-            <p>Randolph/Harbor Dr</p>
-          </div>
-          <h3 class="time">Every 20 minutes</h3>
-        </div>
+        <li class="row">
+          <ul class="bus-info">
+            <li class="route-info">
+              <div class="number-direction-route">
+                <h2>60</h2>
+                <h3>Eastbound</h3>
+                <h4>Randolph/Harbor Dr</h4>
+              </div>
+            </li>
+            <!-- <li class="signal">
+              <img class="signal" src="images/signal.png" alt="Signal icon">
+            </li> -->
+            <li class="frequency">
+              <h5 class="arriving-soon">2 <span class="minutes">min</span></h5>
+              <h6>(Arrives every 20 min)</h6>
+            </li>
+          </ul>
+        </li>
 <!-- Row 2 -->
-        <div class="row-info">
-          <div class="busline-info">
-            <h2>124</h2>
+      <li class="row">
+        <ul class="bus-info">
+          <li class="route-info">
+            <div class="number-direction-route">
+              <h2>124</h2>
               <h3>Eastbound</h3>
-                <p>Navy Pier</p>
-          </div>
-          <h3 class="time">Every 10 minutes</h3>
-        </div>
+              <h4>Navy Pier</h4>
+            </div>
+          </li>
+          <!-- <li class="signal">
+            <img class="signal" src="images/signal.png" alt="Signal icon">
+          </li> -->
+          <li class="frequency">
+            <h5 class="arriving-soon">5 <span class="minutes">min</span></h5>
+            <h6>(Arrives every 10 min)</h6>
+          </li>
+        </ul>
+      </li>
 <!-- Row 3 -->
-        <div class="row-info">
-          <div class="busline-info">
-            <h2>151</h2>
+      <li class="row">
+        <ul class="bus-info">
+          <li class="route-info">
+            <div class="number-direction-route">
+              <h2>151</h2>
               <h3>Northbound</h3>
-                <p>Devon/Clark</p>
-          </div>
-          <h3 class="time">Every 16 minutes</h3>
-        </div>
+              <h4>Devon/Clark</h4>
+            </div>
+          </li>
+          <li class="frequency">
+            <h5 class="arrival-time">13 <span class="minutes">min</span></h5>
+            <h6>(Arrives every 16 min)</h6>
+          </li>
+        </ul>
+      </li>
 <!-- Row 4 -->
-        <div class="row-info">
-          <div class="busline-info">
-            <h2>J14</h2>
+      <li class="row">
+        <ul class="bus-info">
+          <li class="route-info">
+            <div class="number-direction-route">
+              <h2>J14</h2>
               <h3>Southbound</h3>
-                <p>103rd/Stony Island</p>
-          </div>
-          <h3 class="time">Every 15 minutes</h3>
-        </div>
+              <h4>103rd/Stony Island</h4>
+            </div>
+          </li>
+          <li class="frequency">
+            <h5 class="arrival-time">18 <span class="minutes">min</span></h5>
+            <h6>(Arrives every 15 min)</h6>
+          </li>
+        </ul>
+      </li>
 <!-- Row 5 -->
-        <div class="row-info">
-          <div class="busline-info">
-            <h2>124</h2>
+      <li class="row">
+        <ul class="bus-info">
+          <li class="route-info">
+            <div class="number-direction-route">
+              <h2>124</h2>
               <h3>Southbound</h3>
-                <p>Navy Pier</p>
-          </div>
-          <h3 class="time">Every 10 minutes</h3>
-        </div>
+              <h4>Navy Pier</h4>
+            </div>
+          </li>
+          <li class="frequency">
+            <h5 class="arrival-time">22 <span class="minutes">min</span></h5>
+            <h6>(Arrives every 10 min)</h6>
+          </li>
+        </ul>
+      </li>
 <!-- Row 6 -->
-        <div class="row-info">
-          <div class="busline-info">
-            <h2>6x</h2>
+      <li class="row">
+        <ul class="bus-info">
+          <li class="route-info">
+            <div class="number-direction-route">
+              <h2>6x</h2>
               <h3 class="interuption">Reroute</h3>
-                <p>Jackson Park Express</p>
-          </div>
-          <h3 class="time special">N/A</h3>
-        </div>
+              <h4>Jackson Park Express</h4>
+            </div>
+          </li>
+          <li class="frequency">
+            <h5 class="reroute">N/A</h5>
+          </li>
+        </ul>
+      </li>
 <!-- Row 7 -->
-        <div class="row-info">
-          <div class="busline-info">
-            <h2>4</h2>
+      <li class="row">
+        <ul class="bus-info">
+          <li class="route-info">
+            <div class="number-direction-route">
+              <h2>4</h2>
               <h3 class="interuption">Out of Service</h3>
-                <p>Cottage Grove</p>
-          </div>
-          <h3 class="time">Resumes 12:10am</h3>
-        </div>
+              <h4>Cottage Grove</h4>
+            </div>
+          </li>
+          <li class="frequency">
+            <h5 class="resumes-time">Resumes 12:10am</h5>
+          </li>
+        </ul>
+      </li>
 <!-- Row 8 -->
-        <div class="row-info">
-          <div class="busline-info">
-            <h2>20</h2>
+      <li class="row">
+        <ul class="bus-info">
+          <li class="route-info">
+            <div class="number-direction-route">
+              <h2>20</h2>
               <h3 class="interuption">Out of Service</h3>
-                <p>Madison</p>
-          </div>
-          <h3 class="time">Resumes 12:10am</h3>
-        </div>
+              <h4>Madison</h4>
+            </div>
+          </li>
+          <li class="frequency">
+            <h5 class="resumes-time">Resumes 12:10am</h5>
+          </li>
+        </ul>
+      </li>
 <!-- Row 9 -->
-        <div class="row-info">
-          <div class="busline-info">
-            <h2>157</h2>
+      <li class="row">
+        <ul class="bus-info">
+          <li class="route-info">
+            <div class="number-direction-route">
+              <h2>157</h2>
               <h3 class="interuption">Out of Service</h3>
-                <p>Streeterville/Taylor</p>
-          </div>
-          <h3 class="time">Resumes 6:00am</h3>
-        </div>
-      </div>
+              <h4>Streeterville/Taylor</h4>
+            </div>
+          </li>
+          <li class="frequency">
+            <h5 class="resumes-time">Resumes 6:00am</h5>
+          </li>
+        </ul>
+      </li>
+
+
+
+
+    </ul>
+
+
     </section>
+
+
+
   </body>
 </html>
